@@ -1,0 +1,92 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "LocationAPI",
+    "dateExported": "2023-04-15T19:30:05.688Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "b132c679-8efd-4fd4-9d4c-0a4b4d356eb0",
+            "colId": "0643bae2-417e-41f4-a4d6-807935123675",
+            "containerId": "",
+            "name": "http://localhost:8080/get_users",
+            "url": "http://localhost:8080/get_users/5",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-04-15T19:24:50.752Z",
+            "modified": "2023-04-15T19:28:28.691Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "name",
+                    "value": "Harshit",
+                    "isDisabled": true,
+                    "isPath": false
+                },
+                {
+                    "name": "latitude",
+                    "value": "10",
+                    "isDisabled": true,
+                    "isPath": false
+                },
+                {
+                    "name": "longitude",
+                    "value": "10",
+                    "isDisabled": true,
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "5739132d-36a7-4640-b459-59f5e049106e",
+            "colId": "0643bae2-417e-41f4-a4d6-807935123675",
+            "containerId": "",
+            "name": "http://localhost:8080/update_data?name=Harshit&latitude=10&longitude=10",
+            "url": "http://localhost:8080/update_data?name=Zakir&latitude=100&longitude=100",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-04-15T19:24:50.754Z",
+            "modified": "2023-04-15T19:27:44.791Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "name",
+                    "value": "Zakir",
+                    "isPath": false
+                },
+                {
+                    "name": "latitude",
+                    "value": "100",
+                    "isPath": false
+                },
+                {
+                    "name": "longitude",
+                    "value": "100",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "6bee0c37-7014-4b7e-b8ab-0b7eb4d57c49",
+            "colId": "0643bae2-417e-41f4-a4d6-807935123675",
+            "containerId": "",
+            "name": "http://localhost:8080/create_data",
+            "url": "http://localhost:8080/create_data?isAdmin=true",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-04-15T19:24:50.755Z",
+            "modified": "2023-04-15T19:25:29.906Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "isAdmin",
+                    "value": "true",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        }
+    ]
+}
